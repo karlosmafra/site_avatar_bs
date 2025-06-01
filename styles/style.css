@@ -4,3 +4,36 @@
         max-width: 20%;
     }
 }
+
+:root {
+    --verde: #4c633b;
+    --vermelho: #591509;
+    --marrom: #936F50;
+    --branco: #fef7d8;
+    --amarelo: #e7ce9a;
+    --cinza: #4a4f4f;
+}
+
+body {
+    background-color: var(--branco);
+}
+
+nav, footer {
+    background-color: var(--marrom);
+}
+
+.btn-primary {
+    background-color: var(--marrom);
+    border: 1px solid var(--marrom);
+}
+
+.btn-primary:hover {
+    background-color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+}
+
+.custom-tooltip {
+  --bs-tooltip-bg: var(--marrom);
+  --bs-tooltip-color: var(--branco);
+}
+
