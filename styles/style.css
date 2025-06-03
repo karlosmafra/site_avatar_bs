@@ -6,11 +6,10 @@
 }
 
 :root {
-    --verde: #4c633b;
-    --vermelho: #591509;
-    --marrom: #936F50;
-    --branco: #fef7d8;
-    --amarelo: #e7ce9a;
+    --vermelho: #6f1d1b;
+    --amarelo: #dda15e;
+    --marrom: #432818;
+    --branco: #ffe6a7;
     --cinza: #4a4f4f;
 }
 
@@ -18,22 +17,52 @@ body {
     background-color: var(--branco);
 }
 
-nav, footer {
+nav, footer, .nav-link {
     background-color: var(--marrom);
+    color: var(--branco);
 }
 
-.btn-primary {
-    background-color: var(--marrom);
-    border: 1px solid var(--marrom);
+h1 {
+    color: var(--marrom);
 }
 
-.btn-primary:hover {
+.card {
+    background-color: var(--marrom);
+    color: var(--branco);
+}
+
+button.btn.btn-primary {
+    background-color: var(--amarelo);
+    border: 1px solid var(--amarelo);
+    color: #000000;
+}
+
+button.btn.btn-primary:hover {
     background-color: var(--vermelho);
     border: 1px solid var(--vermelho);
+    color: #000000;
+}
+
+button.btn.btn-primary:active {
+    background-color: var(--amarelo);
+    border: 1px solid var(--amarelo);
+    color: #000000;
+}
+
+#carouselElenco .card {
+    height: 447px
+}
+
+#carouselElenco img {
+    height: 357px
 }
 
 .custom-tooltip {
   --bs-tooltip-bg: var(--marrom);
   --bs-tooltip-color: var(--branco);
+}
+
+.text-light {
+    color: var(--branco);
 }
 
